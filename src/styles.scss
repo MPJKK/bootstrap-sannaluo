@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~bootstrap/scss/functions', 'assets/custom';
+@import "~bootstrap/scss/bootstrap.scss";
+html, body {
+  height:100%;
+}
+.container-fluid{
+  height: 100%;
+}
